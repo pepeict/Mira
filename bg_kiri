@@ -1,0 +1,79 @@
+<div id="isi-kanan">
+
+
+<a href="http://baak.stkip-pgri-sumbar.ac.id/" target="_blank" >
+	<img src="http://www.stkip-pgri-sumbar.ac.id/system/application/views/web/images/kn_baak.png" title="BAAK STKIP PGRI Sumbar"></img></a></br></br>
+<a href="http://www.penmaru.stkip-pgri-sumbar.ac.id/" target="_blank">
+	<img src="http://www.stkip-pgri-sumbar.ac.id/system/application/views/web/images/kn_panmaru.png" title="Penmaru STKIP PGRI Sumbar"></img></a></br></br>
+<a href="http://www.stkip-pgri-sumbar.ac.id/media/file/petunjuk-pembayaran-kuliah.pdf" target="_blank">
+	<img style="width:100%; height:140px;" src="http://www.stkip-pgri-sumbar.ac.id//system/application/views/web/images/petunjuk.png"></img></a>
+<br></br>
+
+
+
+
+<!-- Banner Link Unit Kampus -->
+<a href="http://ejournal.stkip-pgri-sumbar.ac.id/" target="_blank">
+	<img src="http://www.stkip-pgri-sumbar.ac.id/system/application/views/web/images/jurnal_dsn.png" title="Penmaru STKIP PGRI Sumbar"></img></a></br></br>
+<a href="http://learning.stkip-pgri-sumbar.ac.id/" target="_blank" >
+	<img src="http://www.stkip-pgri-sumbar.ac.id/system/application/views/web/images/jurnal_mhs.png" title="BAAK STKIP PGRI Sumbar"></img></a></br>
+	
+
+</br>
+<div id="bg-title">WEBSITE PRODI</div>
+<div id="bg-isi-widget">
+
+<li class="li-class"><a href="http://biologi.stkip-pgri-sumbar.ac.id" target="_blank">Prodi Biologi</a></li>
+<li class="li-class"><a href="http://sejarah.stkip-pgri-sumbar.ac.id" target="_blank">Prodi Sejarah</a></li>
+<li class="li-class"><a href="http://geografi.stkip-pgri-sumbar.ac.id" target="_blank">Prodi Geografi</a></li>
+<li class="li-class"><a href="http://inggris.stkip-pgri-sumbar.ac.id" target="_blank">Prodi Bhs Inggris</a></li>
+<li class="li-class"><a href="http://matematika.stkip-pgri-sumbar.ac.id" target="_blank">Prodi Matematika</a></li>
+<li class="li-class"><a href="http://bk.stkip-pgri-sumbar.ac.id" target="_blank">Prodi Bimbingan Konseling</a></li>
+<li class="li-class"><a href="http://sosiologi.stkip-pgri-sumbar.ac.id" target="_blank">Prodi Sosiologi</a></li>
+<li class="li-class"><a href="http://indonesia.stkip-pgri-sumbar.ac.id" target="_blank">Prodi Bhs Indonesia</a></li>
+<li class="li-class"><a href="http://ekonomi.stkip-pgri-sumbar.ac.id" target="_blank">Prodi Ekonomi</a></li>
+<li class="li-class"><a href="http://informatika.stkip-pgri-sumbar.ac.id" target="_blank">Prodi Informatika</a></li>
+<li class="li-class"><a href="http://fisika.stkip-pgri-sumbar.ac.id" target="_blank">Prodi Fisika</a></li>
+
+</div>
+<div id="bg-bawah-widget"></div>
+
+
+
+
+<div id="bg-title">Statistik Pengunjung</div>
+<div id="bg-isi-widget">
+<li class="li-class">
+<?php
+	foreach($counter_pengunjung->result_array() as $c)
+	{
+		echo "Dikunjungi oleh : <b>".$c['content']."</b> user";
+	}
+?>
+</li>
+<?php
+$ip = $_SERVER['REMOTE_ADDR'];
+?>
+<li class="li-class">IP address : <b>10.30.248.115</b></li>
+<li class="li-class">OS : <b><?php echo $os; ?></b></li>
+<li class="li-class">Browser : <b><?php echo $browser; ?></b></li>
+</div>
+<div id="bg-bawah-widget"></div>
+
+
+<!--
+<div id="bg-title">Sisfo Akademik</div>
+<div id="bg-isi-widget">
+<li class="li-class"><a href="http://sit.stkip-pgri-sumbar.ac.id" target="_blank">SIT STKIP PGRI Sumbar</a></li>
+<li class="li-class"><a href="http://ejournal-s1.stkip-pgri-sumbar.ac.id" target="_blank">e-Journal Mahasiswa</a></li>
+<li class="li-class"><a href="http://ejournal.stkip-pgri-sumbar.ac.id" target="_blank">e-Journal Dosen</a></li>
+<li class="li-class"><a href="http://learning.stkip-pgri-sumbar.ac.id" target="_blank">e-Learning</a></li>
+<li class="li-class"><a href="http://digilib.stkip-pgri-sumbar.ac.id" target="_blank">Digital Library</a></li>
+</div>
+<div id="bg-bawah-widget"></div>
+-->
+
+
+
+</div>
+</div>
